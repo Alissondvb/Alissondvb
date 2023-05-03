@@ -3,4 +3,8 @@ body { font-size: 16px;}
 body {font-family: 'Montserrat', sans-serif;}
 h1, p {background-color: #fff;}
 img, h1, p, video { display: block; margin: 0 auto;}
+img {
+  max-width: 50%;
+  height: auto;
+}
 video { width: 100%; height: auto;}
