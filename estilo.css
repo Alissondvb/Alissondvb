@@ -6,8 +6,9 @@ body {
 h1, p {background-color: #fff;}
 img, h1, p, video { display: block; margin: 0 auto;}
 img {
-  height: auto;
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 video { width: 100%; height: auto;}
