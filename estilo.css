@@ -8,5 +8,7 @@ img, h1, p, video { display: block; margin: 0 auto;}
 img {
   max-width: 20%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 video { width: 100%; height: auto;}
