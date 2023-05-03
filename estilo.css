@@ -6,7 +6,6 @@ body {
 h1, p {background-color: #fff;}
 img, h1, p, video { display: block; margin: 0 auto;}
 img {
-  max-width: 20%;
   height: auto;
   display: block;
   margin: 0 auto;
