@@ -4,7 +4,7 @@ body {font-family: 'Montserrat', sans-serif;}
 h1, p {background-color: #fff;}
 img, h1, p, video { display: block; margin: 0 auto;}
 img {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 video { width: 100%; height: auto;}
