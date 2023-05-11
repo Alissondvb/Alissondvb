@@ -1,28 +1,28 @@
 body {
-  background-color: #333333;
-  color: white;
+  font-size: 200px;
   font-family: 'Montserrat', sans-serif;
+  background-color: #111;
+  text-align: center;
+   max-width: 60%
 }
 
-.container {
-  max-width: 60%;
-  margin: 0 auto;
+h1, p {
+  background-color: #fff;
 }
 
-.image, .video {
+img, h1, p, video {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+}
+
+img {
+  max-width: 60%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.titulo {
-  background-color: white;
-  color: black;
-}
-
-p {
-  background-color: white;
-  color: black;
-}
-
+video {
+   width: 300px;
+  height: 300px;
+} 
