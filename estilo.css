@@ -22,7 +22,9 @@ img {
   margin: 0 auto;
 }
 
-video {
-   width: 100px;
-  height: 100px;
-} 
+.video {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
