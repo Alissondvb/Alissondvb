@@ -1,33 +1,27 @@
 body {
-  font-size: 200px;
-  font-family: 'Montserrat', sans-serif;
   background-color: #333333;
-  text-align: center;
-   max-width: 60%
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.image, .video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
   background-color: white;
+  color: white;
 }
 
 p {
   background-color: white;
-}
-
-img, h1, p, video {
-  display: block;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 60%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.video {
-  max-width: 50%;
-  display: block;
-  margin: 0 auto;
+  color: white;
 }
