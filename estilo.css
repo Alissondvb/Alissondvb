@@ -23,6 +23,5 @@ img {
 }
 
 video {
-  max-width: 20%;
-  height: auto;
+  width="640" height="360" controls
 }
