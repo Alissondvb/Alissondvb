@@ -1,27 +1,37 @@
 body {
   font-size: 200px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #111;
+  background-color: #333333;
+  color: #ffffff;
   text-align: center;
 }
 
-h1, p {
-  background-color: #202020;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-img, h1, p, video {
-  display: block;
-  margin: 0 auto;
+h1 {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+p {
+  background-color: #ffffff;
+  padding: 10px;
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .video {
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
+
